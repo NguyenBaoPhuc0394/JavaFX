@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="imageView.Controller">
+   <children>
+      <Button fx:id="button" layoutX="274.0" layoutY="284.0" mnemonicParsing="false" onAction="#display" text="Button" />
+      <ImageView fx:id="imv" fitHeight="179.0" fitWidth="224.0" layoutX="200.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Camera%20Roll/5afbc2c2820256399a0b3db1d5efbba5.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+.root{
+	-fx-background-color: "Black";
+}
+.label{
+	-fx-font-size: 20;
+	-fx-font-family: "Verdana";
+	-fx-text-fill: "orange";
+	-fx-alignment: center ;
+}
+#title{
+	-fx-font-size: 40;
+	
+}
